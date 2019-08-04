@@ -4,7 +4,7 @@ This site serves as a portfolio and information page about Sarah Arnold. Looking
 
 #Acknowledgements 
 
-This code utilized the Myers Reset for cross-browser compatability.
+This code utilizes the Myers Reset for cross-browser compatability.
 http://meyerweb.com/eric/tools/css/reset/    v2.0 | 20110126     License: none (public domain)
 
 Created using [Freelancer](http://startbootstrap.com/template-overviews/freelancer/), a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid, window modals for each portfolio item, and a working PHP contact form.
