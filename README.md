@@ -2,7 +2,9 @@
 
 This site serves as a portfolio and information page about Sarah Arnold. Looking for a programmer or web developer?  Click "Portfolio" to check out Sarah's projects, and "Contact" to contact her. The icons for Github, LinkedIn, and Stack Overflow link to Sarah's profiles.
 
-#Acknowledgements 
+View the deployed portfolio: (https://digipet007.github.io/Sarahs-Portfolio/)
+
+## Acknowledgements 
 
 This code utilizes the Myers Reset for cross-browser compatability.
 http://meyerweb.com/eric/tools/css/reset/    v2.0 | 20110126     License: none (public domain)

@@ -563,17 +563,6 @@ pre code {
   margin-left: auto;
 }
 
-.white a {
-  color: #fff;
-  text-decoration: none;
-  background-color: transparent;
-}
-
-.white:hover {
-  color: #117964;
-  text-decoration: underline;
-}
-
 .social {
   width: 62px;
   height: 62px;
