@@ -563,6 +563,25 @@ pre code {
   margin-left: auto;
 }
 
+.white a {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.white:hover {
+  color: #117964;
+  text-decoration: underline;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+  float: right;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -10882,3 +10901,4 @@ form .row:first-child .floating-label-form-group {
   margin-right: 5px;
   float: right;
 }
+
