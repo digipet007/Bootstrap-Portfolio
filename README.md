@@ -1,8 +1,11 @@
 # Bootstrap Portfolio
 
-This site serves as a portfolio and information page about Sarah Arnold. Looking for a programmer or web developer?  Click "Portfolio" to check out Sarah's projects, and "Contact" to contact her. The icons for Github, LinkedIn, and Stack Overflow link to Sarah's profiles.
+This site serves as a portfolio and information page about Sarah Arnold. Looking for a programmer or web developer?  Click "Portfolio" to check out Sarah's projects, and "Contact" to contact her. The icons for Github and LinkedIn link to Sarah's profiles.
 
 View the deployed portfolio: <https://digipet007.github.io/Sarahs-Portfolio/>
+
+LinkedIn: <https://www.linkedin.com/in/saraharnold10/>
+Github: <https://github.com/digipet007?tab=repositories>
 
 ## Acknowledgements 
 
