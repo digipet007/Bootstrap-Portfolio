@@ -2,7 +2,7 @@
 
 This site serves as a portfolio and information page about Sarah Arnold. Looking for a programmer or web developer?  Click "Portfolio" to check out Sarah's projects, and "Contact" to contact her. The icons for Github, LinkedIn, and Stack Overflow link to Sarah's profiles.
 
-View the deployed portfolio: (https://digipet007.github.io/Sarahs-Portfolio/)
+View the deployed portfolio: <https://digipet007.github.io/Sarahs-Portfolio/>
 
 ## Acknowledgements 
 
