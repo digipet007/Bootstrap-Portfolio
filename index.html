@@ -68,7 +68,7 @@
       <!-- Masthead Subheading -->
       <p class="masthead-subheading font-weight-light mb-0">Programmer and Full Stack Web Developer</p>
       <br>
-      <p class="masthead-subheading font-weight-light mb-0">HTML & CSS, JavaScript & jQuery, Responsive Web Design, Databases & MySQL, MERN Stack</p><br>
+      <p class="masthead-subheading font-weight-light mb-0">HTML & CSS, JavaScript & jQuery, Responsive Web Design, Databases: Mongo & MySQL, MERN Stack</p><br>
       <a href="img/sarah_arnold_resume_pdf.pdf" class="masthead-subheading font-weight-light mb-0 text-secondary">Resume</a>
 
     </div>
@@ -102,6 +102,17 @@
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio/grouper.png" alt="">
+          </div>
+        </div>
+        <!-- Portfolio Item 5 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/nyt-scraper.png" alt="">
           </div>
         </div>
 
@@ -141,17 +152,6 @@
           </div>
         </div>
 
-        <!-- Portfolio Item 5 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/screenshot_trivia.png" alt="">
-          </div>
-        </div>
 
         <!-- Portfolio Item 6
         <div class="col-md-6 col-lg-4">
@@ -313,7 +313,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Word Guess Game</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Grouper Personality Testing</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
@@ -325,7 +325,7 @@
                 <!-- Portfolio Modal - Image -->
                 <img class="img-fluid rounded mb-5" src="img/portfolio/grouper.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">The Personality Inventory application is designed to provide users with opportunities for introspection while allowing teachers a chance to get to know their students at the beginning of the year. Crystal API is used to complete the surveys and return the student's personality archetype. Users must create a profile within Crystal prior to taking the test. The data is stored in a relational database and each class is given a group name. To view results for each class, click on Group Results, and select your group name from the drop-down menu.</p>
+                <p class="mb-5">The Personality Inventory application is designed to provide users with opportunities for introspection by taking a pseronality test and comparing their test results to others in their group. Crystal API is used to complete the surveys and return the student's personality archetype. Users must create a profile within Crystal prior to taking the test. The data is stored in a relational database and each class is given a group name. To view graphical and tabular results for each class, click on Group Results, and select your group name from the drop-down menu.</p>
                 <h4>View <a href="https://pure-meadow-76725.herokuapp.com/" target="_blank">the deployed site.</a></h4>
                 <h4>View the code <a href="https://github.com/digipet007/grouper" target="_blank">on Github.</a></h4>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
@@ -339,6 +339,47 @@
       </div>
     </div>
   </div>
+
+   <!-- Portfolio Modal 5 -->
+   <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">News Article Scraper</h2>
+                  <!-- Icon Divider -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image -->
+                  <img class="img-fluid rounded mb-5" src="img/portfolio/nyt-scraper.png" alt="">
+                  <!-- Portfolio Modal - Text -->
+                  <p class="mb-5">The New York Times Scraper is a web app that lets users view and leave comments on the latest news. It was built with MongoDB, Mongoose, Node, Express, and Handlebars.</p>
+                  <h4>View <a href="https://limitless-reaches-64367.herokuapp.com" target="_blank">the deployed app.</a></h4>
+                  <h4>View the code <a href="https://github.com/digipet007/nyt-scraper" target="_blank">on Github.</a></h4>
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!-- Portfolio Modal 2 -->
   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
@@ -451,47 +492,6 @@
                 <p class="mb-5">This is a search engine for New York Times articles. It utilizes Javascript, jQuery, and API calls to interface with the New York Times database.</p>
                 <h4>View <a href="https://digipet007.github.io/NYT-Article-Search-Engine/" target="_blank">the deployed site.</a></h4>
                 <h4>View the code <a href="https://github.com/digipet007/NYT-Article-Search-Engine" target="_blank">on Github.</a></h4>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Timed Historical Trivia</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/screenshot_trivia.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Race against the clock to answer the historical trivia questions! You have 2 minutes after pressing start.</p>
-                <h4>View <a href="https://digipet007.github.io/TriviaGame/" target="_blank">the deployed game.</a></h4>
-                <h4>View the game <a href="https://github.com/digipet007/TriviaGame" target="_blank">on Github.</a></h4>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
